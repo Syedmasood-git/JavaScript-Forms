@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=DM+Sans:opsz@9..40&family=Inter&display=swap');
+* {
+  background-color: #111;
+  color: white;
+  box-sizing: border-box;
+}
+body {
+  margin: 20px;
+}
+input {
+  border: none;
+  border: 1px solid white;
+  min-width: 25%;
+  height: 2em;
+  margin: 0 2em 1em 0;
+  padding-inline: 10px;
+}
+.inp-div {
+  min-width: 30%;
+}
+h2 {
+  min-width: 30%;
+}
+.sub-btn > button {
+  min-width: 35%;
+  margin-top: 15px;
+  background-color: white;
+  color: black;
+  height: 3em;
+}
+
+.search-div>input{
+    min-width: 90%;
+    height: 3em;
+    margin: 4em 0 3em 0;
+    padding-inline: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid white;
+  min-width:90%
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-right: 1px solid white; /* Add vertical lines */
+}
+th,tr:first-child{
+  border-bottom: 1px solid white;
+}
+th:last-child,td:nth-child(6), td:last-child {
+  border-right: none; /* Remove vertical line from last column */
+}
+
